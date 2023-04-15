@@ -1,0 +1,23 @@
+pkgbase = flycast-dojo-git
+	pkgdesc = A fork of Flycast, a multiplatform Sega Dreamcast, Naomi and Atomiswave emulator. Intended for netplay, game training, and online tournament play. 
+	pkgver = 
+	pkgrel = 1
+	url = https://github.com/blueminder/flycast-dojo
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	makedepends = python
+	makedepends = systemd
+	makedepends = asio
+	depends = libgl
+	depends = libzip
+	depends = xxhash
+	depends = zlib
+	depends = alsa-lib
+	provides = flycast-dojo
+	conflicts = flycast-dojo
+	source = flycast-dojo::git+https://github.com/blueminder/flycast-dojo.git
+	md5sums = SKIP
+
+pkgname = flycast-dojo-git
